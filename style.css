@@ -18,6 +18,7 @@ body{
 .site-header a img{
 margin-right: 114.5px;
 
+
 }
 
 .hero-image{
@@ -44,8 +45,18 @@ nav{
   line-height: 150%;
   letter-spacing: 2px;
   text-transform: uppercase;
+  transition: 0.5s;
 
   color: #222222;
+}
+
+.sitenav-list li a:hover{
+  color: #DE2E54;
+}
+
+.sitenav-list li a.active {
+  color: #DE2E54;
+  font-weight: bold;
 }
 
 .sitenav-item{
@@ -76,7 +87,14 @@ nav{
   color: #FFFFFF;
   background: #DE2E54;
   border-radius: 8px;
+  transition: 1s;
 
+}
+
+.main-link:hover{
+  color: #DE2E54;
+  background: #FFFFFF;
+  border: 2px solid #DE2E54;
 }
 
 /* asosiy qism */
@@ -179,6 +197,7 @@ display: flex;
   color: #ffffff;
   background: #0EB4C1;
   height: 253px;
+  padding-top:  64px; ;
 }
 
 .contacts-heading{
@@ -195,10 +214,6 @@ display: flex;
 
 }
 
-.general-container{
-  margin-top: 64px;
-}
-
 .contacts-call{
   border: 2px solid #FFFFFF;
   border-radius: 8px;
@@ -209,7 +224,14 @@ align-items: center;
 padding: 12px 24px;
 
 margin-right: 40px;
+transition: 1s;
 
+}
+
+.contacts-call:hover{
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
 }
 
 .contacts-telegram{
@@ -219,10 +241,22 @@ margin-right: 40px;
   color: #ffffff;
   justify-content: center;
 align-items: center;
+transition: 1s;
 padding: 12px 24px;
+}
+.contacts-telegram:hover{
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
 }
 
 /* footer qismi */
+
+.general-footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 170px;
+}
 
 .footer-nav{
  background:#222222;
@@ -232,11 +266,25 @@ padding: 12px 24px;
 .footer-nav-list{
   display: flex;
   list-style: none;
+  margin-left: 418px;
 
 
+}
+
+.footer-nav-list li a:hover{
+  color: #DE2E54;
 }
 
 .footer-nav-item a{
   text-decoration: none;
   color: #FFFFFF;
+  margin-right: 32px;
+}
+
+.footer-nav-item a.active{
+  color: #DE2E54;
+}
+
+.footer-nav-list li:last-child{
+  margin-right: 0;
 }
