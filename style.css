@@ -23,7 +23,11 @@ margin-right: 114.5px;
 }
 
 .hero-image{
+  margin-top: 29px;
   padding-right: 170px;
+  height: 504px;
+  margin-bottom: 0;
+  align-self: flex-end;
 }
 nav{
   padding: 0;
@@ -199,6 +203,10 @@ display: flex;
   background: #0EB4C1;
   height: 253px;
   padding-top:  64px; ;
+}
+
+.general-container{
+  width: 1440px;
 }
 
 .contacts-heading{
